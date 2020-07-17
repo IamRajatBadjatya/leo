@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  & > * {
+    margin: 0 8px 16px 0;
+    height: 100vh;
+  }
+  .friendList {
+    width: calc(30% - 16px);
+  }
+  .chatWindow {
+    width: calc(70% - 16px);
+    position: relative;
+    height: 100vh;
+  }
+}
